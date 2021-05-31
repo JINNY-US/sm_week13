@@ -60,7 +60,7 @@
 
 
 ### 태그 선택 유지 기능 추가(수빈, 혜정)
->> https://user-images.githubusercontent.com/76034369/120194378-7de4f680-c258-11eb-8d07-5c1e65176212.mp4
+>> https://user-images.githubusercontent.com/76034369/120194378-7de4f680-c258-11eb-8d07-5c1e65176212.mp4 \
 >> 기존에는 태그 설정 페이지 접속 시 기존에 설정되어있던 태그들이 초기화된 화면이 보이던 문제를 개선하였습니다. listview로 이루어진 태그를 getCheckedItemPositions()를 이용하여 SparseBooleanArray타입 변수에 담은 후 선택된 값들의 position 값들을 for 문을 이용하여 하나의 string으로 만든 후 그 string을 intent.putExtra를 이용하여 seller setting 페이지로 넘겨주고, 다시 태그 설정 페이지로 이동하는 cardview를 누를 경우 넘겨줬던 string을 다시 받아와 int형 array에 넣은 후 array와 setItemChecked를 이용하여 기존에 체크했던 값들을 다시 true로 변경하여, 체크된 상태를 유지한것처럼 보여줍니다.
 >> ![20210531_214830](https://user-images.githubusercontent.com/76034369/120195703-0a43e900-c25a-11eb-8458-e73c65e8d2f5.png)
 >>위의 코드가 선택된 position 값들을 string으로 만들고 넘겨주는 부분입니다.
