@@ -60,22 +60,9 @@
 
 
 ### 태그 선택 유지 기능 추가(수빈, 혜정)
->>
-
-
-###광고 설정 바꾸기(이준석)
-
-![메인 엑티비티 2](https://user-images.githubusercontent.com/79889548/120194760-fcda2f00-c258-11eb-9c2e-d3091793dcae.PNG)
-
-![메인 엑티비티3](https://user-images.githubusercontent.com/79889548/120194763-fe0b5c00-c258-11eb-9aa3-d0e9543c5a53.PNG)
-
-![메인 엑티비티 4](https://user-images.githubusercontent.com/79889548/120194765-fe0b5c00-c258-11eb-8d87-64a2406a5509.PNG)
-
-join Activity에 광고 초기화 함수 및 광고 화면 설정을 해주었고 지난번에 회원가입 화면에서 광고 화면이 버튼부분이랑 겹처서 잘 안보였는데 
-intent를 이용했습니다. 
-
-실행 결과입니다. 
-
-![interstitialAd](https://user-images.githubusercontent.com/79889548/120194768-fea3f280-c258-11eb-8b24-df0471384ba3.PNG)
-
-
+>> https://user-images.githubusercontent.com/76034369/120194378-7de4f680-c258-11eb-8d07-5c1e65176212.mp4
+>> 기존에는 태그 설정 페이지 접속 시 기존에 설정되어있던 태그들이 초기화된 화면이 보이던 문제를 개선하였습니다. listview로 이루어진 태그를 getCheckedItemPositions()를 이용하여 SparseBooleanArray타입 변수에 담은 후 선택된 값들의 position 값들을 for 문을 이용하여 하나의 string으로 만든 후 그 string을 intent.putExtra를 이용하여 seller setting 페이지로 넘겨주고, 다시 태그 설정 페이지로 이동하는 cardview를 누를 경우 넘겨줬던 string을 다시 받아와 int형 array에 넣은 후 array와 setItemChecked를 이용하여 기존에 체크했던 값들을 다시 true로 변경하여, 체크된 상태를 유지한것처럼 보여줍니다.
+>> ![20210531_214830](https://user-images.githubusercontent.com/76034369/120195703-0a43e900-c25a-11eb-8458-e73c65e8d2f5.png)
+>>위의 코드가 선택된 position 값들을 string으로 만들고 넘겨주는 부분입니다.
+>>![20210531_214852](https://user-images.githubusercontent.com/76034369/120195860-2d6e9880-c25a-11eb-9d9e-e1b69ad7b862.png)
+>>string을 받아와서 setItemChecked 해주는 부분입니다.
