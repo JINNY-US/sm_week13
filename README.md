@@ -61,3 +61,16 @@
 
 ### 태그 선택 유지 기능 추가(수빈, 혜정)
 >>
+
+
+###광고 설정 바꾸기(이준석)
+
+![메인 엑티비티 2](https://user-images.githubusercontent.com/79889548/120194760-fcda2f00-c258-11eb-9c2e-d3091793dcae.PNG)
+
+![메인 엑티비티3](https://user-images.githubusercontent.com/79889548/120194763-fe0b5c00-c258-11eb-9aa3-d0e9543c5a53.PNG)
+
+![메인 엑티비티 4](https://user-images.githubusercontent.com/79889548/120194765-fe0b5c00-c258-11eb-8d87-64a2406a5509.PNG)
+
+실행 결과입니다. 
+
+![interstitialAd](https://user-images.githubusercontent.com/79889548/120194768-fea3f280-c258-11eb-8b24-df0471384ba3.PNG)
