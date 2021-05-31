@@ -112,8 +112,10 @@
 > ![image](https://user-images.githubusercontent.com/57963888/120227700-9d921400-c284-11eb-9229-9a3e4f2943b3.png)   
 > 이를 자연스럽게 기능을 이동할 수 있도록 UI를 재구성하였습니다.   
 > 아래의 사진은 일반 회원의 메인화면과 업주 회원의 메인화면입니다.   
-> ![image](https://user-images.githubusercontent.com/57963888/120228792-d3d09300-c286-11eb-82df-f7198392540f.png)
 > 
+> ![image](https://user-images.githubusercontent.com/57963888/120228792-d3d09300-c286-11eb-82df-f7198392540f.png)
+> ![KakaoTalk_20210517_211859235](https://user-images.githubusercontent.com/57963888/118488334-97654900-b756-11eb-94ce-6e74ed59dfff.png)   
+
 
 
 > 회원가입할 때 업주와 일반회원을 구분했었는데, 이를 이용하여 일반 회원과 업주 회원의 화면을 다르게 구성하였습니다.   
@@ -122,7 +124,8 @@
 > 
 >![image](https://user-images.githubusercontent.com/57963888/120232311-47c26980-c28e-11eb-8a50-4d18cf694a69.png)
 >![image](https://user-images.githubusercontent.com/57963888/120232269-30837c00-c28e-11eb-97ab-3cac5dc61b52.png)   
->
+
+> 판매자 설정 페이지에 데이터가 등록되어 있지 않은 경우, 앱이 튕기는 현상이 있어 이를 고치는 중에 있습니다.   
 
 
 
