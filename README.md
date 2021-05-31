@@ -107,6 +107,10 @@
 
 
 ### 앱 통합하기(경진)   
+
+>앱 실행해보기   
+>https://github.com/Kim-KyungJin/AddBoard/tree/addUI
+>
 > 저번 주차에 통합하지 못했던 다른 팀원들의 앱 코드를 통합하였습니다.   
 > 기존의 메인화면에서는 통합된 UI를 만들지 못해 각각의 기능을 테스트할 수 있는 버튼을 두었습니다.   
 > ![image](https://user-images.githubusercontent.com/57963888/120227700-9d921400-c284-11eb-9229-9a3e4f2943b3.png)   
@@ -118,7 +122,7 @@
 
 
 > 회원가입할 때 업주와 일반회원을 구분했었는데, 이를 이용하여 일반 회원과 업주 회원의 화면을 다르게 구성하였습니다.   
-> 불러오는 화면을 다르게 하여 사용자가 더 편리하게 사용할 수 있도록 할 예정입니다.      
+> 불러오는 화면을 다르게 하여 사용자가 더 편리하게 사용할 수 있도록 하였습니다.   
 > 
 >![image](https://user-images.githubusercontent.com/57963888/120232311-47c26980-c28e-11eb-8a50-4d18cf694a69.png)
 >![image](https://user-images.githubusercontent.com/57963888/120232269-30837c00-c28e-11eb-97ab-3cac5dc61b52.png)   
