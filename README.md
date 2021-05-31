@@ -57,22 +57,22 @@
 
 ### 사업자 최초 로그인 시 필수 1회 가게 정보 셋팅(홍수빈)
 >
->> 아래 영상은 사업자로 설정되어있고, 기존에 로그인한적 없는 아이디입니다.(이 메일 인증은 편의상 미리 해둔 상태.) \n
->> https://user-images.githubusercontent.com/76034369/120209458-ade8c580-c269-11eb-8e7e-095c8b5d0628.mp4 \
+>> 아래 영상은 사업자로 설정되어있고, 기존에 로그인한적 없는 아이디입니다.(이 메일 인증은 편의상 미리 해둔 상태.) <br>
+>> https://user-images.githubusercontent.com/76034369/120209458-ade8c580-c269-11eb-8e7e-095c8b5d0628.mp4 <br>
 >> ![20210531_234355](https://user-images.githubusercontent.com/76034369/120210539-d7eeb780-c26a-11eb-8c14-a5b961299cfe.png)
 >> 
->> 유저가 사업자 아이디이고, 최초 로그인일 경우 firebase의 설정값을 확인한 후 로그인 직후 메인페이지의 접속이 아니라 셋팅페이지로 이동합니다. 
+>> 유저가 사업자 아이디이고, 최초 로그인일 경우 firebase의 설정값을 확인한 후 로그인 직후 메인페이지의 접속이 아니라 셋팅페이지로 이동합니다.  <br>
 >> 먼저 firebase의 realtime database에서 로그인한 아이디의 "User" 정보에 접근하여 usertype을 알아내어 사용자가 업주인지, 일반인인지 확인합니다. 만약 업주라면 그 후에 이번엔 init_set값을 확인합니다. init_set은 업주가 초기 가게 설명 셋팅을 하였는지 구분해주는 변수로, 이전에 초기 셋팅을 하지 않았을 경우 false를 가집니다. 이 경우 init_set의 값을 초기셋팅을 하지 않은 경우 이기때문에 false의 값을 가지고, 메인화면으로 이동 하는 것이 아니라 가게 셋팅을 위한 페이지로 넘어갑니다.
 
 
 
 ### 태그 선택 유지 기능 추가(수빈, 혜정)
 >
->> https://user-images.githubusercontent.com/76034369/120209039-29964280-c269-11eb-9bbc-659b472d58b3.mp4 \n
+>> https://user-images.githubusercontent.com/76034369/120209039-29964280-c269-11eb-9bbc-659b472d58b3.mp4 <br>
 >> 기존에는 태그 설정 페이지 접속 시 기존에 설정되어있던 태그들이 초기화된 화면이 보이던 문제를 개선하였습니다. listview로 이루어진 태그를 getCheckedItemPositions()를 이용하여 SparseBooleanArray타입 변수에 담은 후 선택된 값들의 position 값들을 for 문을 이용하여 하나의 string으로 만든 후 그 string을 intent.putExtra를 이용하여 seller setting 페이지로 넘겨주고, 다시 태그 설정 페이지로 이동하는 cardview를 누를 경우 넘겨줬던 string을 다시 받아와 int형 array에 넣은 후 array와 setItemChecked를 이용하여 기존에 체크했던 값들을 다시 true로 변경하여, 체크된 상태를 유지한것처럼 보여줍니다.
->> ![20210531_214830](https://user-images.githubusercontent.com/76034369/120195703-0a43e900-c25a-11eb-8458-e73c65e8d2f5.png)\n
+>> ![20210531_214830](https://user-images.githubusercontent.com/76034369/120195703-0a43e900-c25a-11eb-8458-e73c65e8d2f5.png)<br>
 >>위의 코드가 선택된 position 값들을 string으로 만들고 넘겨주는 부분입니다.
->>![20210531_214852](https://user-images.githubusercontent.com/76034369/120195860-2d6e9880-c25a-11eb-9d9e-e1b69ad7b862.png)\n
+>>![20210531_214852](https://user-images.githubusercontent.com/76034369/120195860-2d6e9880-c25a-11eb-9d9e-e1b69ad7b862.png)<br>
 >>string을 받아와서 setItemChecked 해주는 부분입니다.
 
 ### 광고 설정 바꾸기 (이준석)
