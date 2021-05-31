@@ -108,8 +108,6 @@
 >> 작성 후 확인 버튼을 누르면 게시판에 글이 올라가야 하는데 작성한 데이터 정보들이 게시판에 올라가지 않는 상태입니다.
 >> 다음 주차전까지 오류를 찾아 게시판 기능을 마무리 할 예정이고 아래의 코드들은 아직 해결하지 못한 게시판 기능 코드입니다.
 
->> ![1](https://user-images.githubusercontent.com/79883558/120208622-a70d8300-c268-11eb-9edf-448ff32f6585.png) ![2](https://user-images.githubusercontent.com/79883558/120208630-aa087380-c268-11eb-89cd-7881cfe64e79.png)
-
 >> ![4](https://user-images.githubusercontent.com/79883558/120208648-af65be00-c268-11eb-8cce-041b2f92a7c9.png) ![5](https://user-images.githubusercontent.com/79883558/120208659-b2f94500-c268-11eb-9e51-1ac32e9e6c68.png) ![6](https://user-images.githubusercontent.com/79883558/120208705-c1476100-c268-11eb-98ea-6d1abe0531ff.png)
 
 
