@@ -71,6 +71,11 @@
 
 ![메인 엑티비티 4](https://user-images.githubusercontent.com/79889548/120194765-fe0b5c00-c258-11eb-8d87-64a2406a5509.PNG)
 
+join Activity에 광고 초기화 함수 및 광고 화면 설정을 해주었고 지난번에 회원가입 화면에서 광고 화면이 버튼부분이랑 겹처서 잘 안보였는데 
+intent를 이용했습니다. 
+
 실행 결과입니다. 
 
 ![interstitialAd](https://user-images.githubusercontent.com/79889548/120194768-fea3f280-c258-11eb-8b24-df0471384ba3.PNG)
+
+
