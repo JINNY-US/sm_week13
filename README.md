@@ -70,3 +70,19 @@
 >>위의 코드가 선택된 position 값들을 string으로 만들고 넘겨주는 부분입니다.
 >>![20210531_214852](https://user-images.githubusercontent.com/76034369/120195860-2d6e9880-c25a-11eb-9d9e-e1b69ad7b862.png)
 >>string을 받아와서 setItemChecked 해주는 부분입니다.
+
+### 광고 설정 바꾸기 (이준석)
+
+![메인 엑티비티 2](https://user-images.githubusercontent.com/79889548/120197278-c2be5c80-c25b-11eb-80b8-f0ee628050c7.PNG)
+
+![메인 엑티비티3](https://user-images.githubusercontent.com/79889548/120197287-c3ef8980-c25b-11eb-8515-f0c93e37bde0.PNG)
+
+![메인 엑티비티 4](https://user-images.githubusercontent.com/79889548/120197291-c4882000-c25b-11eb-8198-c960b8b7db10.PNG)
+
+
+지난번에는 회원가입 화면에 버튼이 잇어서 광고화면이 잘 안보였는데 .. 전면광고로 만들었습니다.
+그리고 Join Activity 에는 광고 화면 설정 , 광고 초기화 함수 , 광고 에러 설정을 했습니다. 
+
+실행 화면입니다 .
+
+![interstitialAd](https://user-images.githubusercontent.com/79889548/120197294-c4882000-c25b-11eb-9514-64c6a77f2afb.PNG)
