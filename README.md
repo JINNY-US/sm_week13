@@ -86,3 +86,19 @@
 실행 화면입니다 .
 
 ![interstitialAd](https://user-images.githubusercontent.com/79889548/120197294-c4882000-c25b-11eb-9514-64c6a77f2afb.PNG)
+
+### 구글 인앱 결제(샤르더르)
+
+![KakaoTalk_1](https://user-images.githubusercontent.com/79889548/120198824-85f36500-c25d-11eb-9e60-432d503e978c.png)
+
+![KakaoTalk_2](https://user-images.githubusercontent.com/79889548/120198830-87bd2880-c25d-11eb-969e-39abfad1eace.png)
+
+![KakaoTalk3](https://user-images.githubusercontent.com/79889548/120198832-87bd2880-c25d-11eb-9937-f992152934d7.png)
+
+실행화면 입니다. 
+
+![KakaoTalk4](https://user-images.githubusercontent.com/79889548/120198834-8855bf00-c25d-11eb-8043-86db43ef1906.png)
+
+
+
+
