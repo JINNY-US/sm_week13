@@ -3,8 +3,7 @@
 
 12주차 팀 프로젝트 활동 : https://github.com/Kim-KyungJin/sm_week12   
 
->앱 실행 링크
->>  
+
 
 
 ### 팀 구성   
