@@ -111,12 +111,17 @@
 > 기존의 메인화면에서는 통합된 UI를 만들지 못해 각각의 기능을 테스트할 수 있는 버튼을 두었습니다.   
 > ![image](https://user-images.githubusercontent.com/57963888/120227700-9d921400-c284-11eb-9229-9a3e4f2943b3.png)   
 > 이를 자연스럽게 기능을 이동할 수 있도록 UI를 재구성하였습니다.   
+> 아래의 사진은 일반 회원의 메인화면과 업주 회원의 메인화면입니다.   
+> ![image](https://user-images.githubusercontent.com/57963888/120228792-d3d09300-c286-11eb-82df-f7198392540f.png)
+> 
+
 
 > 회원가입할 때 업주와 일반회원을 구분했었는데, 이를 이용하여 일반 회원과 업주 회원의 화면을 다르게 구성하였습니다.   
-> 아래의 코드는 시작 화면의 일부분 코드입니다.   
+> 아래의 코드는 마이페이지 화면의 일부분 코드입니다.   
 > 불러오는 화면을 다르게 하여 사용자가 더 편리하게 사용할 수 있도록 하였습니다.   
 > 
->![image](https://user-images.githubusercontent.com/57963888/120227903-08434f80-c285-11eb-9d0a-035221358e11.png)   
+>![image](https://user-images.githubusercontent.com/57963888/120232311-47c26980-c28e-11eb-8a50-4d18cf694a69.png)
+>![image](https://user-images.githubusercontent.com/57963888/120232269-30837c00-c28e-11eb-97ab-3cac5dc61b52.png)   
 >
 
 
