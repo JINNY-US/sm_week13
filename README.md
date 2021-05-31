@@ -64,7 +64,7 @@
 
 
 ### 태그 선택 유지 기능 추가(수빈, 혜정)
->> ![태그 유지]https://user-images.githubusercontent.com/76034369/120194378-7de4f680-c258-11eb-8d07-5c1e65176212.mp4 \
+>> ![태그 유지]https://user-images.githubusercontent.com/76034369/120209039-29964280-c269-11eb-9bbc-659b472d58b3.mp4 \
 >> 기존에는 태그 설정 페이지 접속 시 기존에 설정되어있던 태그들이 초기화된 화면이 보이던 문제를 개선하였습니다. listview로 이루어진 태그를 getCheckedItemPositions()를 이용하여 SparseBooleanArray타입 변수에 담은 후 선택된 값들의 position 값들을 for 문을 이용하여 하나의 string으로 만든 후 그 string을 intent.putExtra를 이용하여 seller setting 페이지로 넘겨주고, 다시 태그 설정 페이지로 이동하는 cardview를 누를 경우 넘겨줬던 string을 다시 받아와 int형 array에 넣은 후 array와 setItemChecked를 이용하여 기존에 체크했던 값들을 다시 true로 변경하여, 체크된 상태를 유지한것처럼 보여줍니다.
 >> ![20210531_214830](https://user-images.githubusercontent.com/76034369/120195703-0a43e900-c25a-11eb-8458-e73c65e8d2f5.png)
 >>위의 코드가 선택된 position 값들을 string으로 만들고 넘겨주는 부분입니다.
@@ -107,6 +107,8 @@
 
 >> 작성 후 확인 버튼을 누르면 게시판에 글이 올라가야 하는데 작성한 데이터 정보들이 게시판에 올라가지 않는 상태입니다.
 >> 다음 주차전까지 오류를 찾아 게시판 기능을 마무리 할 예정이고 아래의 코드들은 아직 해결하지 못한 게시판 기능 코드입니다.
+
+>> ![1](https://user-images.githubusercontent.com/79883558/120208622-a70d8300-c268-11eb-9edf-448ff32f6585.png) ![2](https://user-images.githubusercontent.com/79883558/120208630-aa087380-c268-11eb-89cd-7881cfe64e79.png)
 
 >> ![4](https://user-images.githubusercontent.com/79883558/120208648-af65be00-c268-11eb-8cce-041b2f92a7c9.png) ![5](https://user-images.githubusercontent.com/79883558/120208659-b2f94500-c268-11eb-9e51-1ac32e9e6c68.png) ![6](https://user-images.githubusercontent.com/79883558/120208705-c1476100-c268-11eb-98ea-6d1abe0531ff.png)
 
