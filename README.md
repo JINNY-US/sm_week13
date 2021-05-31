@@ -56,7 +56,7 @@
 
 
 ### 사업자 최초 로그인 시 필수 1회 가게 정보 셋팅(홍수빈)
->> !!깃허브의 업로드 용량 제한으로 인해 외부 프로그램을 이용해 동영상 용량을 강제로 줄인 관계로 화질저하, 워터마크가 포함되었습니다. 양해 부탁드립니다.!!
+>
 >> 아래 영상은 사업자로 설정되어있고, 기존에 로그인한적 없는 아이디입니다.(이 메일 인증은 편의상 미리 해둔 상태.) 
 >> https://user-images.githubusercontent.com/76034369/120209458-ade8c580-c269-11eb-8e7e-095c8b5d0628.mp4
 >> 유저가 사업자 아이디이고, 최초 로그인일 경우 firebase의 설정값을 확인한 후 로그인 직후 메인페이지의 접속이 아니라 셋팅페이지로 이동합니다. 
@@ -64,7 +64,7 @@
 
 
 ### 태그 선택 유지 기능 추가(수빈, 혜정)
->> https://user-images.githubusercontent.com/76034369/120209039-29964280-c269-11eb-9bbc-659b472d58b3.mp4 \
+>> https://user-images.githubusercontent.com/76034369/120209039-29964280-c269-11eb-9bbc-659b472d58b3.mp4 \n
 >> 기존에는 태그 설정 페이지 접속 시 기존에 설정되어있던 태그들이 초기화된 화면이 보이던 문제를 개선하였습니다. listview로 이루어진 태그를 getCheckedItemPositions()를 이용하여 SparseBooleanArray타입 변수에 담은 후 선택된 값들의 position 값들을 for 문을 이용하여 하나의 string으로 만든 후 그 string을 intent.putExtra를 이용하여 seller setting 페이지로 넘겨주고, 다시 태그 설정 페이지로 이동하는 cardview를 누를 경우 넘겨줬던 string을 다시 받아와 int형 array에 넣은 후 array와 setItemChecked를 이용하여 기존에 체크했던 값들을 다시 true로 변경하여, 체크된 상태를 유지한것처럼 보여줍니다.
 >> ![20210531_214830](https://user-images.githubusercontent.com/76034369/120195703-0a43e900-c25a-11eb-8458-e73c65e8d2f5.png)\n
 >>위의 코드가 선택된 position 값들을 string으로 만들고 넘겨주는 부분입니다.
